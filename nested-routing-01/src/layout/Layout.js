@@ -1,7 +1,7 @@
-// Components that we want show  to all pages
+import { Outlet } from "react-router-dom";
+// Components we to show want to all pages
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import { Outlet } from "react-router-dom";
 
 const Layout = () => {
   return (
