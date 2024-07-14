@@ -1,0 +1,9 @@
+a {
+    color: rgb(48, 48, 48);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.active {
+    color: red;
+}

@@ -1,0 +1,23 @@
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f8f8;
+    border-right: 1px solid #f33434;
+    padding: 20px 10px;
+    width: 25%;
+}
+
+#sidebar a {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #949494;
+    padding: 10px 10px;
+    border-radius: 3px;
+}
+
+#sidebar a:hover {
+    color: #fff !important;
+    background-color: #202020;
+    transform: 0.4s;
+}
